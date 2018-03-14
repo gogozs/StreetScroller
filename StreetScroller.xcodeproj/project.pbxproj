@@ -172,7 +172,7 @@
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
 					C9D460EE139C01D400D8C470 = {
-						DevelopmentTeam = 2484Z5XMVT;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -321,7 +321,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 2484Z5XMVT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreetScroller/StreetScroller-Prefix.pch";
 				INFOPLIST_FILE = "StreetScroller/StreetScroller-Info.plist";
@@ -329,6 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.StreetScroller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -339,7 +341,8 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = 2484Z5XMVT;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StreetScroller/StreetScroller-Prefix.pch";
 				INFOPLIST_FILE = "StreetScroller/StreetScroller-Info.plist";
@@ -347,6 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.StreetScroller";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
